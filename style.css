@@ -1,0 +1,313 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(12, 12, 12);
+
+}
+.logo-container{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(46, 46, 46);
+   max-width: 10 0vw;
+}
+.img{
+    width: 100px;
+    height: 100px;
+ margin: 0 2rem;
+    border-radius: 10px;
+}
+.form{
+  margin-top: 2rem;
+  padding: 0 3rem;
+  max-width: 470px;
+    max-height: 100px;
+}
+.search{
+    width: 260px;
+    height: 35px;
+    border-radius: 10px;
+}
+.search::placeholder{
+    text-indent: 10px;
+}
+.submit{
+    width: 50px;
+    height: 35px;
+    border-radius: 10px;
+    background: antiquewhite;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.main-menu{
+    background: rgb(109, 106, 106);
+    max-width: 100vw;
+
+}
+
+.main-menu > ul{
+    margin: 0;
+    padding: 0;
+}
+.main-menu > ul > li > a{
+    color: rgb(233, 234, 231);
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+    font-size: 1.2rem;
+    margin-right: 2rem;
+    transition:  all 0.2s linear;
+    padding: 30px;
+   
+}
+.main-menu > ul > li > a:hover{
+    color: rgb(204, 239, 142);
+    
+    
+}
+.main-menu > ul > li{
+    display: inline-block;
+}
+.drop > li > a{
+    display: block;
+    color: rgb(233, 234, 231);
+    text-transform: capitalize;
+    text-decoration: none;
+background: black;
+padding: 20px;
+ text-align: center;
+    font-size: 1.2rem;
+    transition:  all 0.2s linear;
+    cursor: pointer;
+}
+
+/* DROPDOWN */
+
+
+.drop{
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    margin-top: 48 px;
+    
+}
+.drop > li > a:hover{
+    color: rgb(2, 52, 52);
+    background: white; 
+   
+}
+.main-menu > ul > li:hover .drop{
+
+     display: block;
+
+}
+
+/* BANNER */
+
+.banner{
+    overflow: hidden;
+    max-width: 100vw;
+    height: auto;
+    object-fit: cover;
+}
+.banner img{
+    width: 100%;
+    height: 700px;
+   
+}
+
+.sidebar h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    
+}
+
+.sidebar{
+    background: rgb(244, 226, 226);
+}
+
+.years{
+    list-style-type: none;
+}
+.years li a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(108, 61, 5);
+    display: block; 
+    padding: 3.5rem;
+    text-align: center;
+
+}
+
+.content h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+   
+}
+
+.text{
+    color: rgb(136, 113, 84);
+    font-weight: 400;
+    max-width: 30rem;
+    margin: 0 auto;
+    padding: 0.25rem;
+}
+
+.content{
+    background: rgb(238, 233, 233);
+    
+}
+.content-holder{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.footer-list li a{
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: white;
+    line-height: 2;
+}
+.footer{
+    background: black;
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    
+    flex-wrap: wrap;
+    padding: 3rem;
+}
+
+.footer > div > h3{
+    color: wheat;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+.address h3{
+    color: wheat;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+.address p{
+    color: white;
+    line-height: 2;
+}
+.address p a{
+    color: rgb(187, 232, 239);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 400;
+    line-height: 2;
+    font-style: italic;
+}
+.address p a span{
+    color: white;
+    font-weight: 700;
+
+}
+
+/* COPYRIGHT */
+.copyright{
+    background: rgba(131, 9, 76, 0.932);
+    color: rgb(208, 240, 243);
+    padding: 3rem;
+}
+.copyright p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
